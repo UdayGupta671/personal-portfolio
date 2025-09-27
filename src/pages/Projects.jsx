@@ -2,6 +2,7 @@
 import React from "react";
 import project1logo from "../assets/projects/project1logo.png";
 import project2logo from "../assets/projects/project2logo.png";
+import CLogo from "../assets/projects/CLogo.png";
 
 
 export default function Projects() {
@@ -43,6 +44,23 @@ export default function Projects() {
               <p>
                 Frontend prototype for an e-commerce shop with a product listing page, 
                 shopping cart, and responsive design.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style={{ width: "40%" }}>
+              <img
+                src={CLogo}
+                alt="C# WinForms Project"
+                style={{ width: "100%", borderRadius: "8px" }}
+              />
+            </td>
+            <td style={{ verticalAlign: "top" }}>
+              <h2>C# WinForms Student Performance Tracker</h2>
+              <p>
+                A desktop application built with <strong>C# WinForms</strong> to track student
+                performance across assignments, quizzes, and exams. Includes features like
+                data entry forms, grade calculations, and simple reporting.
               </p>
             </td>
           </tr>
